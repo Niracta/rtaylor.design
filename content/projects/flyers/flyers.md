@@ -1,5 +1,5 @@
 ---
-banner: ./images/flyers-01.jpg
+banner: ./images/Thumb-Flyers.png
 slug: flyers
 title: Flyers
 client: Audigy, Others
@@ -12,9 +12,9 @@ A variety of works and designs for different clients and events.
 
 **Role** Graphic Designer  
 **For** Audigy, Others  
-**Type** Grassroots Advertising  
+**Type** Grassroots Advertising
 
-![](./images/flyers-01.jpg)  
-![](./images/flyers-02.jpg)  
-![](./images/flyers-03.jpg)  
-![](./images/flyers-05.jpg)  
+![](./images/Pieces-Flyers-01.png)  
+![](./images/Pieces-Flyers-02.png)  
+![](./images/Pieces-Flyers-03_Big.png)  
+![](./images/Pieces-Flyers-04.png)

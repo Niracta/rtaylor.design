@@ -1,5 +1,5 @@
 ---
-banner: ./images/ge-lighting-controls-01.png
+banner: ./images/Thumb-LCs.png
 slug: ge-lighting-controls
 title: GE Lighting Controls
 client: Jasco Products Company
@@ -12,8 +12,12 @@ A series of lighting controls under the GE-branded label. The line goal was to p
 
 **Role** Graphic Designer, Illustrator  
 **For** Jasco Products Company  
-**Type** Retail Packaging  
+**Type** Retail Packaging
 
-![](./images/ge-lighting-controls-01.png "Retail packaging")  
-![](./images/ge-lighting-controls-02.png "Instruction manual with technical illustrations")  
-![](./images/ge-lighting-controls-03.png "All items designed at initial retail launch")  
+![](./images/Pieces-LCs-01.png)  
+![](./images/Pieces-LCs-02.png)  
+![](./images/Pieces-LCs-03.png)  
+![](./images/Pieces-LCs-04_Manual.png "Instruction manual with custom technical illustrations")
+![](./images/Pieces-LCs-05_draw.png "Technical illustrations")  
+![](./images/Pieces-LCs-06.png)  
+![](./images/Pieces-LCs-07.png)

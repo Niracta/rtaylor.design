@@ -9,7 +9,7 @@ export const Container = styled.footer(
     padding: 2.4rem 3.6rem;
     background-color: ${theme.colors.grays[100]};
     color: ${theme.colors.grays[800]};
-    font-size: ${theme.fontSizes.tiny};
+    font-size: ${theme.fontSizes.footer};
     font-weight: ${theme.weights.light};
   `
 );
