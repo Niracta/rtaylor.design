@@ -33,10 +33,12 @@ export interface Theme {
     numbers: "'Varela Round', '-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif";
   };
   fontSizes: {
-    /** Footer Text, Captions, Code Blocks */
+    /** Footer Text */
+    footer: "1rem";
+    /** Header subtext, Captions, Code Blocks */
     tiny: "1.8rem";
     /** Body Text, H6 */
-    body: "2.15rem";
+    body: "2rem";
     /** Form Elements, H5 */
     form: "2.8rem";
     /** H4 */
@@ -136,8 +138,9 @@ export const theme: Theme = {
     numbers: `'Varela Round', '-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif`
   },
   fontSizes: {
+    footer: `1rem`,
     tiny: `1.8rem`,
-    body: `2.15rem`,
+    body: `2rem`,
     form: `2.8rem`,
     headline: `3.2rem`,
     subtitle: `3.75rem`,

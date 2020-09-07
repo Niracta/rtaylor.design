@@ -1,5 +1,5 @@
 ---
-banner: ./images/cordinate-extension-cords-01.png
+banner: ./images/Thumb-Cord.png
 slug: cordinate-extension-cords
 title: Cordinate Extension Cords
 client: Jasco Products Company
@@ -12,9 +12,10 @@ Cordinate was a new house label under Jasco Products Company. The vision was for
 
 **Role** Graphic Designer, Package Designer  
 **For** Jasco Products Company  
-**Type** Retail Packaging  
+**Type** Retail Packaging
 
-![](./images/cordinate-extension-cords-01.png "Initial concepts for packaging and design")  
-![](./images/cordinate-extension-cords-02.png "Retail packaging")  
-![](./images/cordinate-extension-cords-03.png "Retail packaging color varietyn")  
-![](./images/cordinate-extension-cords-04.png "Full spectrum of initial retail packaging")  
+![A blue, brown, and gray packages for USB extension cords stand carefully angled against a neutral background.](./images/Pieces-Cord-01.png)  
+![Three different but similar packages show different packaging prototypes for USB extension cords.](./images/Pieces-Cord-02-Prototype.png "Hand-assembled prototypes to test packaging viability.")  
+![Packaging for a gray 10ft. USB extension cord with a braided fabric cable is displayed against a neutral background.](./images/Pieces-Cord-03.png)  
+![Three columns show straight-on images of the USB extension cord packaging in blue, brown, and gray colors and with different features.](./images/Pieces-Cord-05-Big.png "Full spectrum of products in the line.")  
+![Packaging for a blue 10ft. USB extension cord with a braided fabric cable is displayed against a neutral background.](./images/Pieces-Cord-06.png)

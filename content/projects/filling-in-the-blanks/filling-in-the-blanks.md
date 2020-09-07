@@ -1,5 +1,5 @@
 ---
-banner: ./images/filling-in-the-blanks-01.jpg
+banner: ./images/Thumb-Blanks.png
 slug: filling-in-the-blanks
 title: Filling in the Blanks
 client: Audigy
@@ -13,12 +13,11 @@ Designed to target adults age 40+ who are invested in brain wellness to support 
 **Role** Graphic Designer, Concept Development  
 **For** Audigy  
 **Type** Creative Campaign  
-**Copywriter** S. Hoover  
+**Copywriter** S. Hoover
 
-![](./images/filling-in-the-blanks-01.jpg "Single-sided Flyer")  
-![](./images/filling-in-the-blanks-02.jpg "Double-sided Flyer or News Insert")  
-![](./images/filling-in-the-blanks-03.jpg "Broadsheet Newspaper Insert")  
-![](./images/filling-in-the-blanks-04.jpg "Broadsheet Newspaper Insert")  
-![](./images/filling-in-the-blanks-05.jpg "Social Media Post")  
-![](./images/filling-in-the-blanks-06.jpg "Small Newspaper Ads")  
-![](./images/filling-in-the-blanks-07.jpg "Campaign Availability in the Audigy Creative Library")  
+![](./images/Pieces-Blanks-01.png "Double-sided Flyer or News Insert")  
+![](./images/Pieces-Blanks-04.png)  
+![](./images/Pieces-Blanks-02.png "Small Newspaper Ads")  
+![](./images/Pieces-Blanks-05_Big.png "Broadsheet Newspaper Insert")  
+![](./images/Pieces-Blanks-06_Big.png "Broadsheet Newspaper Insert")  
+![](./images/Pieces-Blanks-03.png "Social Media Post")

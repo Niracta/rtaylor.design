@@ -1,5 +1,5 @@
 ---
-banner: ./images/little-shoppe-of-games-01.png
+banner: ./images/Thumb-LSoG.png
 slug: little-shoppe-of-games
 title: Little Shoppe of Games
 client: Little Shoppe of Games
@@ -12,7 +12,9 @@ Little Shoppe of Games was a very small local board game store in the heart of O
 
 **Role** Costuming, Photographer, Designer  
 **For** Little Shoppe of Games  
-**Type** 1-color Newspaper Advertisement  
+**Type** 1-color Newspaper Advertisement
 
-![](./images/little-shoppe-of-games-01.png "Newspaper ad for Little Shoppe of Games")  
-![](./images/little-shoppe-of-games-02.png "Suggested implementation in the local free newspaper")  
+![](./images/Pieces-LSoG-01.png "OK Gazette ad placement")  
+![](./images/Pieces-LSoG-02_Draw.png "Concept and development sketches")  
+![](./images/Pieces-LSoG-03_Big.png "DSLR photography with model & self-sourced costuming")  
+![](./images/Pieces-LSoG-04_Big.png "Final Ad")

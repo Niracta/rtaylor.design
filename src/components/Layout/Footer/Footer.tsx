@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
 
   return (
     <Container>
-      <p>{`Copyright © ${new Date().getFullYear()} ${author}`}</p>
+      <p>This site serves as a self-promotional creative portfolio for {` ${author}`} and as such all content displayed herein constitutes fair use under applicable law. All trademarks and rights are retained by their respective owners. {` © ${new Date().getFullYear()} ${author}`}.</p>
     </Container>
   );
 };

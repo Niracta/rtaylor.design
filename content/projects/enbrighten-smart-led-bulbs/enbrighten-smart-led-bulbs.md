@@ -1,5 +1,5 @@
 ---
-banner: ./images/enbrighten-smart-led-bulbs-01.png
+banner: ./images/Thumb-Bulb.png
 slug: enbrighten-smart-led-bulbs
 title: Enbrighten Smart LED Bulbs
 client: Audigy
@@ -12,9 +12,11 @@ Enbrighten is a house label under Jasco Products Company. This item was intended
 
 **Role** Graphic Designer, Illustrator  
 **For** Jasco Products Company  
-**Type** Conceptual Design & Retail Packaging  
+**Type** Conceptual Design & Retail Packaging
 
-![](./images/enbrighten-smart-led-bulbs-01.png "Initial concept")  
-![](./images/enbrighten-smart-led-bulbs-02.png "Retail packaging")  
-![](./images/enbrighten-smart-led-bulbs-03.png "Trifold insert with isometric home illustration")  
-![](./images/enbrighten-smart-led-bulbs-04.png "Monochrome trilingual manual with technical illustrations")  
+![](./images/Pieces-Bulb-01.png)  
+![](./images/Pieces-Bulb-02_Concept.png "Conceptual development")  
+![](./images/Pieces-Bulb-03.png "Trifold insert with original illustration")  
+![](./images/Pieces-Bulb-04_draw.png "Original illustration to depict the connected home")  
+![](./images/Pieces-Bulb-05_Big.png "Monochrome trilingual manual with technical illustrations")  
+![](./images/Pieces-Bulb-06.png "Retail product")
