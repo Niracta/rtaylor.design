@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         children: `LinkedIn`,
-        to: `https://www.linkedin.com/in/rachel-n-taylor/`
+        to: `https://www.linkedin.com/in/rtaylordesign/`
       }
     ]
   },
