@@ -6,9 +6,9 @@ client: Audigy
 date: 2020-04-01
 ---
 
-# Newsletter Winter 2019
+# Newsletter Summer 2020
 
-Audigy’s SoundBytes Newsletter is printed mailing piece intended to boost confidence in the provider practice, and educate the consumer. The exterior spread is branded and customized for the practice, but the interior spread is static among all practices to reduce printing costs. The summer 2020 edition had content that was pet-focused, and utilized a 1960's-inspired design theme to resonate with the average reader demographic.
+Audigy’s SoundNews Newsletter is a modular, customized template. The exterior spread is branded and customized for the practice, but the interior spread is static to reduce printing costs.
 
 **Role** Lead Graphic Designer  
 **For** Audigy  
