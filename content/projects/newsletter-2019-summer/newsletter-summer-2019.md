@@ -8,7 +8,7 @@ date: 2019-03-26
 
 # Newsletter Summer 2019
 
-Audigy’s Newsletter is printed mailing piece. The exterior spread is branded and customized for the client, but the interior spread is static to reduce printing costs.
+Audigy’s SoundNews Newsletter is a modular, customized template. The exterior spread is branded and customized for the practice, but the interior spread is static to reduce printing costs.
 
 **Role** Secondary Graphic Designer  
 **For** Audigy  
