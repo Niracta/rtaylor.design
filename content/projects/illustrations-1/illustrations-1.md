@@ -13,6 +13,7 @@ Illustrations varying from digital painting to traditional media.
 ![](./images/Pieces-Ill-FrogLilly-01.png)
 ![](./images/Pieces-Ill-Frogman-01.png)
 ![](./images/Pieces-Ill-Maps_Big.png "Custom map for a fantasy game")
+![](./images/Pieces-Ill-Maps_01.png "Custom roadmap for a Hawaiian healthcare practice")
 ![](./images/Pieces-Ill-COS-01.png)  
 ![](./images/Pieces-Ill-COS-02.png)  
 ![](./images/Pieces-Ill-COS-03.png "Wine label illustrations for a horror-themed game")

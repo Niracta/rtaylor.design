@@ -14,8 +14,8 @@ The Hear for Holidays campaign was started from an old creative in the Audigy va
 **For** Audigy  
 **Type** Creative Campaign  
 
-![](./images/Pieces-H4H-01_Big.png "Broadsheet Newspaper Insert")  
-![](./images/Pieces-H4H-02_Big.png "Broadsheet Newspaper Insert")  
-![](./images/Pieces-H4H-03_Big.png "Broadsheet Newspaper Insert")  
+![](./images/Pieces-H4H-01_Big.png "Broadsheet Newspaper Insert Front Page")  
+![](./images/Pieces-H4H-02_Big.png "Broadsheet Newspaper Insert Center Spread")  
+![](./images/Pieces-H4H-03_Big.png "Broadsheet Newspaper Insert Back Page")  
 ![](./images/Pieces-H4H-04.png "Double-sided Flyer or News Insert")  
 ![](./images/Pieces-H4H-05.png "Social Media Post")

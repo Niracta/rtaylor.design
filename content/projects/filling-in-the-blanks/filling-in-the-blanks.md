@@ -13,7 +13,7 @@ Designed to target adults age 40+ who are invested in brain wellness to support 
 **Role** Graphic Designer, Concept Development  
 **For** Audigy  
 **Type** Creative Campaign  
-**Copywriter** S. Hoover
+**Collaborators** S. Hoover (copywriter), N. Miller (Director)
 
 ![](./images/Pieces-Blanks-01.png "Double-sided Flyer or News Insert")  
 ![](./images/Pieces-Blanks-04.png)  

@@ -10,7 +10,7 @@ date: 2016-07-20
 
 Enbrighten is a house label under Jasco Products Company. This item was intended to sell on the retail floor adjacent to GE-branded items, and needed to be cohesive with existing GE-branded items in appearance.
 
-**Role** Graphic Designer, Illustrator  
+**Role** Graphic Designer, Illustrator, Technical Researcher  
 **For** Jasco Products Company  
 **Type** Conceptual Design & Retail Packaging
 
