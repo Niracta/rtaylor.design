@@ -1,0 +1,57 @@
+/* Remove default margins */
+* {
+  margin: 0;
+}
+
+::selection {
+  color: #000;
+  background-color: #fedd00;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-height: 100dvh;
+  padding: 0;
+}
+
+@media (display-mode: standalone) {
+  html,
+  body {
+    min-height: 100vh;
+  }
+}
+
+/* Use a sensible box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Don't underline Links */
+a {
+  text-decoration: none;
+  touch-action: manipulation;
+  &:hover,
+  &:focus-visible {
+    text-decoration: none;
+  }
+}
+
+/* Better media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol,
+li {
+  all: unset;
+}

@@ -1,0 +1,13 @@
+:root {
+  --colors-primary-light: #76dafe;
+  --colors-primary-normal: #00a3e0;
+  --colors-primary-dark: #008abc;
+  --colors-secondary-light: #fd1f9e;
+  --colors-secondary-normal: #d9027d;
+  --colors-secondary-dark: #a1025c;
+  --colors-tertiary-light: #fede5a;
+  --colors-tertiary-normal: #fedd00;
+  --colors-tertiary-dark: #f2b903;
+  --colors-white: var(--neutral-25);
+  --colors-black: var(--neutral-950);
+}

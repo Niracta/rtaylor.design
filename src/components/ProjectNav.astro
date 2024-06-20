@@ -1,0 +1,173 @@
+---
+import { Image } from "astro:assets";
+import { type CollectionEntry } from "astro:content";
+
+type Project = CollectionEntry<`projects`>;
+
+export interface Props {
+  prev?: Project | null;
+  next?: Project | null;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<footer>
+  <nav class="project-nav">
+    {
+      prev ? (
+        <a class="prev" href={`/projects/${prev.slug}`}>
+          <div>
+            <Image
+              src={
+                import(`/src/content/projects/${prev.slug}/${prev.data.banner}`)
+              }
+              alt={prev.data.title}
+              height={300}
+            />
+            <span>{prev.data.title}</span>
+          </div>
+          <span>Previous Project</span>
+        </a>
+      ) : null
+    }
+    {
+      next ? (
+        <a class="next" href={`/projects/${next.slug}`}>
+          <div>
+            <Image
+              src={
+                import(`/src/content/projects/${next.slug}/${next.data.banner}`)
+              }
+              alt={next.data.title}
+              height={300}
+            />
+            <span>{next.data.title}</span>
+          </div>
+          <span>Next Project</span>
+        </a>
+      ) : null
+    }
+  </nav>
+</footer>
+
+<style is:global>
+  .project-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    margin-top: 30px;
+
+    a {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      max-width: calc(50% - 32px);
+      border-radius: 4px;
+      border: unset;
+      padding: 12px;
+      gap: 12px;
+
+      &:focus-visible {
+        outline: 2px solid var(--colors-secondary-light);
+        outline-offset: 2px;
+      }
+
+      div {
+        position: relative;
+        overflow: hidden;
+        max-width: 300px;
+        object-fit: cover;
+        object-position: center center;
+
+        &:after {
+          z-index: 100;
+          position: absolute;
+          top: 0;
+          content: "";
+          width: stretch;
+          height: stretch;
+          background-color: color-mix(
+            in oklch,
+            var(--colors-secondary-light),
+            transparent 40%
+          );
+          opacity: 0;
+          transition: opacity 0.5s;
+        }
+
+        img {
+          position: relative;
+          width: stretch;
+          height: stretch;
+          object-fit: cover;
+          object-position: center center;
+          aspect-ratio: 2/1;
+        }
+
+        span {
+          z-index: 200;
+          position: absolute;
+          top: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: stretch;
+          height: stretch;
+          padding: 0 8px;
+          text-align: center;
+          color: var(--colors-white);
+          text-shadow: 0px 2px 2px
+            color-mix(in okclh, var(--colors-black), transparent 50%);
+          opacity: 0;
+          transition: opacity 0.5s;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+
+      > span {
+        display: flex;
+        width: stretch;
+        padding-top: 4px;
+        border-top: 1px solid var(--neutral-500);
+        color: var(--neutral-700);
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        transition: all 0.5s ease 0s;
+
+        @media (max-width: 768px) {
+          font-size: 14px;
+        }
+      }
+
+      &:hover {
+        div:after {
+          opacity: 1;
+        }
+
+        div span {
+          opacity: 1;
+        }
+
+        > span {
+          border-color: var(--colors-secondary-light);
+          color: var(--colors-secondary-light);
+          text-decoration: none;
+        }
+      }
+
+      &.next {
+        &:first-child {
+          margin-left: auto;
+        }
+
+        > span {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+</style>

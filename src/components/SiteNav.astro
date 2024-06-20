@@ -1,0 +1,76 @@
+---
+import ThemeSwitcher from "./ThemeSwitcher.astro";
+---
+
+<nav class="sitenav">
+  <ul>
+    <li>
+      <a href="/projects">Projects</a>
+    </li>
+    <li>
+      <a href="/about">About</a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/rtaylordesign/" target="_blank">
+        LinkedIn
+      </a>
+    </li>
+  </ul>
+  <ThemeSwitcher />
+</nav>
+
+<style is:global>
+  .sitenav {
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    gap: 12px;
+
+    @media (max-width: 820px) {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+      gap: 8px;
+    }
+
+    li {
+      border-radius: 4px;
+      border: none;
+      padding-inline: 4px;
+      color: var(--colors-black);
+      text-decoration: none;
+
+      &:focus-within {
+        outline: 2px solid var(--colors-secondary-light);
+        outline-offset: 2px;
+      }
+
+      &.active {
+        color: var(--colors-secondary-dark);
+      }
+
+      a:focus-visible {
+        outline: none;
+      }
+
+      h1,
+      h2 {
+        transition: color 0.3s ease-in-out;
+      }
+
+      &:hover,
+      &:focus {
+        h1,
+        h2 {
+          color: var(--colors-secondary-light);
+        }
+
+        &.active {
+          color: var(--colors-secondary-light);
+        }
+      }
+    }
+  }
+</style>
