@@ -4,7 +4,7 @@ layout: ../layouts/Page.astro
 
 <div class="split"><div>
 
-> Rachel Taylor is a visual designer specializing in process refinement, systems thinking, accessible design, and identity.
+> "Styles come and go. Good design is a language, not a style." <cite> — Massimo Vignelli </cite>
 
 </div><div>
 
@@ -12,8 +12,11 @@ layout: ../layouts/Page.astro
 
 </div></div>
 
-With a background in process printing and packaging for brands such as GE and Honeywell, Rachel has nearly a decade of expertise in managing visual identity for large-scale brands. Rachel is currently focused on moving into design systems and digital work.
-Rachel is currently available for projects large and small, contract roles and full-time opportunities.
+Hi, I’m Rachel. I am a visual designer specializing in process refinement, systems thinking, accessible design, and identity.
+
+I have a background in process printing and package design working with brands such as GE and Honeywell, and nearly a decade of expertise helping teams work more cohesively and efficiently at scale. After a brief foray into technical writing, I am currently focused on moving back into design systems and digital work.
+
+I am currently available for projects large and small, contract roles and full-time opportunities.
 
 **Capabilities**
 | | |
