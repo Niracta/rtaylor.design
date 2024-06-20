@@ -1,0 +1,36 @@
+---
+import type {
+  GetStaticPaths,
+  InferGetStaticPropsType
+} from "astro/dist/@types/astro";
+import ProjectNav from "../../components/ProjectNav.astro";
+import Layout from "../../layouts/Layout.astro";
+import Markdown from "../../components/Markdown.astro";
+import { getCollection } from "astro:content";
+
+export const prerender = true;
+
+export const getStaticPaths = (async () =>
+  (await getCollection("projects"))
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+    .map((page, i, all) => ({
+      params: { slug: page.slug },
+      props: {
+        page,
+        prev: i === 0 ? null : all[i - 1],
+        next: i === all.length ? null : all[i + 1]
+      }
+    }))) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { page, prev, next } = Astro.props;
+const { Content } = await page.render();
+---
+
+<Layout>
+  <Markdown>
+    <Content />
+    <ProjectNav prev={prev} next={next} />
+  </Markdown>
+</Layout>

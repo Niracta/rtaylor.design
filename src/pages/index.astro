@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Grid from "../components/Grid.astro";
+import { getCollection } from "astro:content";
+
+export const prerender = true;
+
+const projects = (await getCollection("projects")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<Layout>
+  <Grid projects={projects} />
+</Layout>

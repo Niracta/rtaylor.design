@@ -1,0 +1,32 @@
+---
+layout: ../layouts/Page.astro
+---
+
+<div class="split"><div>
+
+> Rachel Taylor is a visual designer specializing in process refinement, systems thinking, accessible design, and identity.
+
+</div><div>
+
+![](../assets/Headshot-RT_2020.jpg)
+
+</div></div>
+
+With a background in process printing and packaging for brands such as GE and Honeywell, Rachel has nearly a decade of expertise in managing visual identity for large-scale brands. Rachel is currently focused on moving into design systems and digital work.
+Rachel is currently available for projects large and small, contract roles and full-time opportunities.
+
+**Capabilities**
+| | |
+| ------------------- | ----------------- |
+| Visual Identity | Process Writing |
+| Organization | Video Editing |
+| Design Systems | Illustration |
+| UX & UI Design | Public Speaking |
+| Packaging Design | Communication |
+
+#### Awards
+
+###### Gerber Process Development Award
+
+**August 2019* • *April 2020**
+Two-time recepient of the internal Audigy company award. This award is one of four awards presented quarterly to individuals within the company. This award is for recognition of excellence in creating, steamlining, and maintaining processes that move the company forward. The recipient is an employee who has created simplicity and structure in the processes, and a known solution provider.

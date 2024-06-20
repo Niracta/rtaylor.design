@@ -1,150 +1,166 @@
 {
-  "name": "@saeris/gatsby-process",
-  "private": true,
-  "author": "Drake Costa <drake@saeris.io> (https://github.com/Saeris/)",
+  "name": "rtaylor-design",
   "description": "",
-  "version": "1.0.0",
+  "version": "2023.05.20",
   "license": "MIT",
-  "keywords": [
-    "gatsby",
-    "typescript",
-    "styled-components",
-    "reakit"
-  ],
+  "private": true,
+  "homepage": "https://rtaylor.design",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saeris/gatsby-process"
+    "url": "https://github.com/niracta/rtaylor.design"
   },
-  "bugs": {
-    "url": "https://github.com/Saeris/gatsby-process/issues"
-  },
+  "contributors": [
+    "Rachel Taylor <designer.racheltaylor@gmail.com> (https://meet.rtaylor.design)",
+    "Drake Costa <drake@saeris.io> (https://saeris.gg)"
+  ],
+  "type": "module",
+  "packageManager": "yarn@4.2.2",
   "scripts": {
-    "build": "run-s build:**",
-    "build:app": "gatsby build",
-    "build:lambda": "cross-env NODE_ENV=`production` LAMBDA=true netlify-lambda build src/lambda --config ./webpack.functions.js",
-    "dev": "yarn start",
-    "start": "run-p -l start:**",
-    "start:app": "cross-env CHOKIDAR_USEPOLLING=true gatsby develop",
-    "start:lambda": "cross-env LAMBDA=true npx --node-arg=--inspect netlify-lambda serve src/lambda --config ./webpack.functions.js",
-    "serve": "gatsby serve",
-    "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore",
-    "typecheck": "tsc --noEmit"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.5.8",
-    "@mdx-js/mdx": "^1.5.8",
-    "@mdx-js/react": "^1.5.8",
-    "babel-preset-gatsby": "^0.3.1",
-    "framer-motion": "1.10.2",
-    "gatsby": "^2.20.8",
-    "gatsby-image": "^2.3.1",
-    "gatsby-plugin-catch-links": "^2.2.1",
-    "gatsby-plugin-google-analytics": "^2.2.2",
-    "gatsby-plugin-manifest": "^2.3.3",
-    "gatsby-plugin-mdx": "^1.1.3",
-    "gatsby-plugin-netlify": "^2.2.1",
-    "gatsby-plugin-netlify-functions": "^0.0.3",
-    "gatsby-plugin-offline": "^3.1.2",
-    "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-plugin-sitemap": "^2.3.1",
-    "gatsby-plugin-styled-components": "^3.2.1",
-    "gatsby-plugin-typegen": "^2.0.0",
-    "gatsby-plugin-typescript": "^2.3.1",
-    "gatsby-remark-copy-linked-files": "^2.2.1",
-    "gatsby-remark-images": "^3.2.1",
-    "gatsby-remark-unwrap-images": "^1.0.2",
-    "gatsby-source-filesystem": "^2.2.2",
-    "gatsby-transformer-sharp": "^2.4.3",
-    "graphql": "^14.6.0",
-    "nodemailer": "^6.4.6",
-    "polished": "^3.5.1",
-    "prism-react-renderer": "^1.0.2",
-    "react": "^16.13.1",
-    "react-autosize-textarea": "^7.0.0",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1",
-    "react-icons": "3.9.0",
-    "react-use": "^13.27.1",
-    "reakit": "1.0.0-rc.0",
-    "regenerator-runtime": "^0.13.5",
-    "remark-deflist": "^0.2.1",
-    "styled-components": "^5.0.1",
-    "typeface-fira-code": "^1.1.4",
-    "typeface-montserrat": "0.0.75",
-    "typeface-varela-round": "^0.0.71",
-    "typeface-work-sans": "^0.0.72",
-    "typescript": "^3.8.3",
-    "yup": "^0.28.3"
+    "@astrojs/mdx": "^3.0.1",
+    "@astrojs/react": "^3.5.0",
+    "@astrojs/ts-plugin": "^1.8.0",
+    "@astrojs/vercel": "^7.6.0",
+    "@saeris/colors": "^0.1.0",
+    "@vercel/analytics": "^1.3.1",
+    "@vercel/og": "^0.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "typeface-montserrat": "1.1.13",
+    "typeface-varela-round": "^1.1.13",
+    "typeface-work-sans": "^1.1.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
-    "@babel/plugin-transform-object-assign": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
-    "@babel/preset-typescript": "^7.9.0",
-    "@types/aws-lambda": "^8.10.46",
-    "@types/graphql": "^14.2.3",
-    "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.5",
-    "@types/nodemailer": "^6.4.0",
-    "@types/reach__router": "^1.3.1",
-    "@types/react": "^16.9.27",
-    "@types/react-dom": "^16.9.5",
-    "@types/react-helmet": "^5.0.15",
-    "@types/styled-components": "^5.0.1",
-    "@types/testing-library__cypress": "^5.0.3",
-    "@types/yup": "^0.26.33",
-    "@typescript-eslint/eslint-plugin": "^2.25.0",
-    "@typescript-eslint/parser": "^2.25.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-styled-components": "^1.10.7",
-    "cross-env": "^7.0.2",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-compat": "^3.1.1",
-    "eslint-plugin-graphql": "^3.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^3.0.0",
-    "esm": "^3.2.25",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.10",
-    "netlify-lambda": "1.6.3",
-    "npm-run-all": "4.1.5",
-    "prettier": "^2.0.2",
-    "remark-breaks": "^1.0.5",
-    "remark-heading-id": "^1.0.0",
-    "remark-unwrap-images": "^2.0.0",
-    "webpack-node-externals": "^1.6.0"
+    "@jsdevtools/rehype-url-inspector": "^2.0.2",
+    "@microflash/rehype-figure": "^2.1.0",
+    "@remark-embedder/core": "^3.0.3",
+    "@remark-embedder/transformer-oembed": "^5.0.0",
+    "@saeris/eslint-config": "^2.6.0",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "20.14.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "astro": "^4.9.3",
+    "eslint": "8.57.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-astro": "^1.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "image-size": "^1.0.2",
+    "postcss": "^8.4.38",
+    "postcss-load-config": "^5.1.0",
+    "postcss-nested": "^6.0.1",
+    "postcss-preset-env": "^9.5.14",
+    "prettier": "^3.3.1",
+    "prettier-plugin-astro": "^0.14.0",
+    "rehype-accessible-emojis": "^0.3.2",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-rewrite": "^4.0.2",
+    "rehype-slug": "^6.0.0",
+    "remark-alerts": "^0.0.1",
+    "remark-captions": "^2.2.4",
+    "remark-definition-list": "^2.0.0",
+    "remark-denden-ruby": "^0.3.1",
+    "remark-directive": "^3.0.0",
+    "remark-extended-table": "^2.0.2",
+    "remark-flexible-markers": "^1.2.1",
+    "remark-gfm": "^3.0.1",
+    "remark-ins": "^1.1.0",
+    "remark-remove-comments": "^1.0.1",
+    "remark-sectionize": "^2.0.0",
+    "remark-squeeze-paragraphs": "^6.0.0",
+    "remark-unwrap-images": "^3.0.1",
+    "sharp": "^0.33.4",
+    "typescript": "5.4.5",
+    "typescript-plugin-css-modules": "^5.1.0",
+    "unist-util-visit": "^4.1.2"
   },
-  "resolutions": {
-    "graphql": "^14.6.0"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint --fix",
-      "git add"
+  "eslintConfig": {
+    "extends": [
+      "plugin:astro/recommended",
+      "@saeris/eslint-config/base",
+      "@saeris/eslint-config/typescript",
+      "@saeris/eslint-config/type-aware"
     ],
-    "*.{md,yaml,yml}": [
-      "prettier --write",
-      "git add"
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "settings": {
+      "import/resolver": {
+        "typescript": true,
+        "node": true
+      }
+    },
+    "ignorePatterns": [
+      ".astro/**/*",
+      "*.js",
+      "*.cjs",
+      "*.mjs",
+      "*.d.ts"
     ],
-    "*.svg": [
-      "svgo --pretty --indent=2 --multipass",
-      "git add"
+    "overrides": [
+      {
+        "files": [
+          "*.astro"
+        ],
+        "parser": "astro-eslint-parser",
+        "parserOptions": {
+          "parser": "@typescript-eslint/parser",
+          "extraFileExtensions": [
+            ".astro"
+          ]
+        }
+      }
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "ssr": [
+      "last 4 node major versions"
+    ]
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-astro"
+    ],
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-nested": {},
+      "postcss-preset-env": {
+        "autoprefixer": {
+          "flexbox": "no-2009"
+        },
+        "stage": 3,
+        "features": {
+          "custom-properties": false
+        }
+      }
     }
   }
 }
