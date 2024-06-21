@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import vercel from "@astrojs/vercel/serverless";
 import react from "@astrojs/react";
+import astroPWA from "@vite-pwa/astro";
 import {
   remarkDefinitionList,
   defListHastHandlers
@@ -55,7 +56,7 @@ export default defineConfig({
       }
     }
   },
-  integrations: [mdx({}), react()],
+  integrations: [astroPWA(), mdx({}), react()],
   // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
   image: {
     service: {
