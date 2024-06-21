@@ -3,15 +3,15 @@ import type {
   GetStaticPaths,
   InferGetStaticPropsType
 } from "astro/dist/@types/astro";
+import { getCollection } from "astro:content";
 import ProjectNav from "../../components/ProjectNav.astro";
 import Layout from "../../layouts/Layout.astro";
 import Markdown from "../../components/Markdown.astro";
-import { getCollection } from "astro:content";
 
 export const prerender = true;
 
 export const getStaticPaths = (async () =>
-  (await getCollection("projects"))
+  (await getCollection(`projects`))
     .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
     .map((page, i, all) => ({
       params: { slug: page.slug },
