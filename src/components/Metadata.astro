@@ -1,6 +1,7 @@
 ---
 import { getImage } from "astro:assets";
 import { SEO } from "astro-seo";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 import Theme from "../components/Theme.astro";
 import faviconSrc from "../assets/logos/logo.png";
 import faviconSvgSrc from "../assets/logos/logo.svg";
@@ -24,10 +25,9 @@ const { title, description } = Astro.props;
 
 <head>
   <meta charset="UTF-8" />
-  <Theme />
   <SEO
-    title={title ?? `Rachel Taylor - Graphic Designer & Illustrator`}
-    description={description ??
+  title={title ?? `Rachel Taylor - Graphic Designer & Illustrator`}
+  description={description ??
       `Personal graphic design and illustration portfolio of Rachel Taylor`}
     extend={{
       link: [
@@ -43,4 +43,6 @@ const { title, description } = Astro.props;
       ]
     }}
   />
+  <Theme />
+  <SpeedInsights />
 </head>
