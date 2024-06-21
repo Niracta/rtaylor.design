@@ -1,19 +1,41 @@
 {
+  "extends": "astro/tsconfigs/strict",
+  "ts-node": {
+    "transpileOnly": true
+  },
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "jsx": "preserve",
-    "lib": ["esnext", "dom"],
-    "strict": true,
     "noEmit": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "isolatedModules": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowImportingTsExtensions": true,
+    "lib": ["ESNext", "DOM"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "strict": false,
+    "strictNullChecks": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": false,
-    "preserveConstEnums": true,
+    "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "sourceMap": true
-  },
-  "include": ["./src/**/*"]
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "noErrorTruncation": true,
+    "plugins": [
+      {
+        "name": "@astrojs/ts-plugin"
+      },
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+    "jsxImportSource": "react"
+  }
 }

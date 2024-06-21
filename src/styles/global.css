@@ -1,0 +1,51 @@
+@import url("./colors.css");
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./button.css");
+
+body {
+  /* Default Font Sizes */
+  --fs-heading: var(--hu);
+  --fs-body: var(--bs);
+  --fs-label: var(--ls);
+
+  /* utility values */
+  --scrollbar-width: calc(100vw - 100%);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--colors-white);
+  color: var(--colors-black);
+  font: 300 var(--fs-body) / 1.5 var(--family);
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-block: 24px;
+}
+
+a {
+  border-bottom: 2px solid var(--colors-primary-normal);
+  color: var(--colors-primary-normal);
+  text-decoration: none;
+  transition:
+    border 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+
+  header & {
+    color: var(--colors-black);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: var(--colors-secondary-normal);
+    color: var(--colors-secondary-normal);
+    text-decoration: none;
+  }
+}

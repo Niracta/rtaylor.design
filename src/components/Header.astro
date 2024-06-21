@@ -1,0 +1,96 @@
+---
+import logo from "../assets/logo.svg?raw";
+import MobileNav from "./MobileNav.astro";
+import SiteNav from "./SiteNav.astro";
+---
+
+<header class="header">
+  <a href="/" class="logoGroup">
+    <Fragment set:html={logo} />
+    <hgroup>
+      <h1>Rachel Taylor</h1>
+      <h2>Graphic Designer & Illustrator</h2>
+    </hgroup>
+  </a>
+  <SiteNav />
+  <MobileNav>
+    <SiteNav />
+  </MobileNav>
+</header>
+
+<style is:global>
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 36px;
+    background-color: var(--neutral-25);
+    font-family: "Montserrat";
+    font-style: normal;
+
+    a {
+      text-decoration: none;
+      border-bottom: unset;
+    }
+  }
+
+  .logoGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    border-radius: 4px;
+
+    svg {
+      width: 68px;
+      height: auto;
+    }
+
+    hgroup {
+      display: flex;
+      flex-direction: column;
+      padding-inline: 12px;
+      border-left: 1px solid var(--colors-black);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 34px;
+      letter-spacing: calc(0.05em);
+      text-transform: uppercase;
+      text-wrap: nowrap;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--colors-secondary-light);
+      outline-offset: 2px;
+
+      hgroup {
+        border-color: var(--colors-secondary-light);
+      }
+    }
+
+    @media (max-width: 768px) {
+      svg {
+        min-width: 40px;
+        width: 40px;
+      }
+
+      h1 {
+        font-size: 22px;
+        line-height: 24px;
+      }
+
+      h2 {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+</style>
