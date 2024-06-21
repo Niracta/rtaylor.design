@@ -1,5 +1,5 @@
 ---
-import DynamicImage from "./DynamicImage.astro";
+import { Image } from "astro:assets";
 import { type CollectionEntry } from "astro:content";
 
 export interface Props {
@@ -17,8 +17,8 @@ const { projects } = Astro.props;
           href={`/projects/${project.slug}`}
           aria-label={`Navigate to Project ${project.data.title}`}
         >
-          <DynamicImage
-            src={`../content/projects/${project.slug}/${project.data.banner.replace(`./`, ``)}`}
+          <Image
+            src={project.data.banner}
             height={400}
             alt={project.data.title}
           />

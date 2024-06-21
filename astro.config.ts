@@ -57,12 +57,6 @@ export default defineConfig({
     }
   },
   integrations: [astroPWA(), mdx({}), react()],
-  // Process images with sharp: https://docs.astro.build/en/guides/assets/#using-sharp
-  image: {
-    service: {
-      entrypoint: `astro/assets/services/sharp`
-    }
-  },
   devToolbar: {
     enabled: false
   },

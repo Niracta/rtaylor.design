@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry } from "astro:content";
-import DynamicImage from "./DynamicImage.astro";
+import { Image } from "astro:assets";
 
 type Project = CollectionEntry<`projects`>;
 
@@ -18,11 +18,7 @@ const { prev, next } = Astro.props;
       prev ? (
         <a class="prev" href={`/projects/${prev.slug}`}>
           <div>
-            <DynamicImage
-              src={`../content/projects/${prev.slug}/${prev.data.banner.replace(`./`, ``)}`}
-              alt={prev.data.title}
-              height={300}
-            />
+            <Image src={prev.data.banner} alt={prev.data.title} height={300} />
             <span>{prev.data.title}</span>
           </div>
           <span>Previous Project</span>
@@ -33,11 +29,7 @@ const { prev, next } = Astro.props;
       next ? (
         <a class="next" href={`/projects/${next.slug}`}>
           <div>
-            <DynamicImage
-              src={`../content/projects/${next.slug}/${next.data.banner.replace(`./`, ``)}`}
-              alt={next.data.title}
-              height={300}
-            />
+            <Image src={next.data.banner} alt={next.data.title} height={300} />
             <span>{next.data.title}</span>
           </div>
           <span>Next Project</span>
