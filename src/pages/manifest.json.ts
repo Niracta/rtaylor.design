@@ -16,7 +16,8 @@ export const GET: APIRoute = async () => {
       return {
         src: image.src,
         type: `image/${image.options.format}`,
-        sizes: `${image.options.width}x${image.options.height}`
+        sizes: `${image.options.width}x${image.options.height}`,
+        ...(size === 512 ? { purpose: `maskable` } : {})
       };
     })
   );
