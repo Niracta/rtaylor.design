@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   background: var(--colors-white);
   color: var(--colors-black);
-  font: 300 var(--fs-body) / 1.5 var(--family);
+  font: 300 var(--fs-body) / 1.5 var(--family-body);
 }
 
 main {

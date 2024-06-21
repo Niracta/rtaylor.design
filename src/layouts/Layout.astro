@@ -1,9 +1,20 @@
 ---
+import { getImage } from "astro:assets";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Theme from "../components/Theme.astro";
 import "../styles/vendor";
 import "../styles/global.css";
+import faviconSrc from "../assets/logos/logo.png";
+import faviconSvgSrc from "../assets/logos/logo.svg";
+
+const appleTouchIcon = await getImage({
+  src: faviconSrc,
+  width: 180,
+  height: 180,
+  format: `png`
+});
+const faviconSvg = await getImage({ src: faviconSvgSrc, format: `svg` });
 ---
 
 <!doctype html>
@@ -12,7 +23,10 @@ import "../styles/global.css";
     <Theme />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href={faviconSvg.src} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={appleTouchIcon.src} />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="generator" content={Astro.generator} />
     <title>Rachel Taylor - Graphic Designer & Illustrator</title>
   </head>

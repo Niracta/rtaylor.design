@@ -1,5 +1,9 @@
 :root {
-  --family: "Montserrat", -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  --family-body: "Montserrat Variable", -apple-system, Roboto, Helvetica, Arial,
+    sans-serif;
+  --family-label: "Varela Round", "-apple-system", "Roboto", "Helvetica",
+    "Arial", sans-serif;
+  --family-display: "Work Sans Variable", sans-serif;
   --font-base: 24px;
   /* Major Second */
   --scale: 1.125;

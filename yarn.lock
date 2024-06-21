@@ -501,6 +501,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@canvas/image-data@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@canvas/image-data@npm:1.0.0"
+  checksum: 10/0929dfedb2545297fd1f74ac9c8d38d4517615a5d17e8e812929caeec677ab96c86ec491640441bd7880a4b5612a91e0243acf29a4576d1e0fbc7537f875bb7d
+  languageName: node
+  linkType: hard
+
 "@csstools/cascade-layer-name-parser@npm:^1.0.11":
   version: 1.0.11
   resolution: "@csstools/cascade-layer-name-parser@npm:1.0.11"
@@ -1160,6 +1167,27 @@ __metadata:
   version: 8.57.0
   resolution: "@eslint/js@npm:8.57.0"
   checksum: 10/3c501ce8a997cf6cbbaf4ed358af5492875e3550c19b9621413b82caa9ae5382c584b0efa79835639e6e0ddaa568caf3499318e5bdab68643ef4199dce5eb0a0
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/montserrat@npm:^5.0.19":
+  version: 5.0.19
+  resolution: "@fontsource-variable/montserrat@npm:5.0.19"
+  checksum: 10/bfc45550864a00300a848b18c0e33da40188f3be6a46777ea3e913bc557810e672164e259bb7bbc73e50d8af7e5242ea6c2da77fedb19f53781021d69079b520
+  languageName: node
+  linkType: hard
+
+"@fontsource-variable/work-sans@npm:^5.0.19":
+  version: 5.0.19
+  resolution: "@fontsource-variable/work-sans@npm:5.0.19"
+  checksum: 10/10abe01b651733fc75b6138c4d7533726ad4a23d893cba770e8fc34fb99a5f9da49045e0b354d5e45bf5153e214fccdb1231b8df3d459a7a79a8619c35099329
+  languageName: node
+  linkType: hard
+
+"@fontsource/varela-round@npm:^5.0.13":
+  version: 5.0.13
+  resolution: "@fontsource/varela-round@npm:5.0.13"
+  checksum: 10/e20a59080bc44f657b37cff84b177aea7c913d25173dfe3a9ea7a28ab191f619e14c27773d973c8f1bbebb7227a1426b74bb2d631d57c96a38baeb277f093bef
   languageName: node
   linkType: hard
 
@@ -3822,6 +3850,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"decode-bmp@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "decode-bmp@npm:0.2.1"
+  dependencies:
+    "@canvas/image-data": "npm:^1.0.0"
+    to-data-view: "npm:^1.1.0"
+  checksum: 10/659ac3330e901e5b275207b5b3a792b939185f7f31f2c26864ff1b3db18f875fbf0e7dc0fedcb6ae69538d8b4ee2aa745a8bf5856df0c4858ffd0f2987204735
+  languageName: node
+  linkType: hard
+
+"decode-ico@npm:*":
+  version: 0.4.1
+  resolution: "decode-ico@npm:0.4.1"
+  dependencies:
+    "@canvas/image-data": "npm:^1.0.0"
+    decode-bmp: "npm:^0.2.0"
+    to-data-view: "npm:^1.1.0"
+  checksum: 10/b5a049b2227d7c3cb569f9f3a889f91da200403989a8eeb8e001a335056c1857617038810f0dbf3e77d0fc930c677a6d5e6f106a0bc64cf0475e2e390b487aff
+  languageName: node
+  linkType: hard
+
 "decode-named-character-reference@npm:^1.0.0":
   version: 1.0.2
   resolution: "decode-named-character-reference@npm:1.0.2"
@@ -5976,6 +6025,13 @@ __metadata:
   dependencies:
     ms: "npm:^2.0.0"
   checksum: 10/9c7a74a2827f9294c009266c82031030eae811ca87b0da3dceb8d6071b9bde22c9f3daef0469c3c533cc67a97d8a167cd9fc0389350e5f415f61a79b171ded16
+  languageName: node
+  linkType: hard
+
+"ico-endec@npm:*":
+  version: 0.1.6
+  resolution: "ico-endec@npm:0.1.6"
+  checksum: 10/36fcdcb9681f153bebef2a386e740b2ac8c22fc5bce6fbbd96700a958d105269c59ebed8c73df9295618a5baa8a4ca35d15bb6676a9918ba04c0bd4cb90cdb9c
   languageName: node
   linkType: hard
 
@@ -10084,18 +10140,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-denden-ruby@npm:^0.3.1":
-  version: 0.3.1
-  resolution: "remark-denden-ruby@npm:0.3.1"
-  dependencies:
-    "@types/mdast": "npm:^4.0.1"
-    unified: "npm:^11.0.3"
-    unist-builder: "npm:^4.0.0"
-    unist-util-visit: "npm:^5.0.0"
-  checksum: 10/8d64ba201aced1471496251227160690e175170574860891cb6fe7f2f0ed05a177c674ae91261cf6ee9e1cdae0ee9ef572c90bce0447d457229cc9221ca4dbe5
-  languageName: node
-  linkType: hard
-
 "remark-directive@npm:^3.0.0":
   version: 3.0.0
   resolution: "remark-directive@npm:3.0.0"
@@ -10567,6 +10611,9 @@ __metadata:
     "@astrojs/react": "npm:^3.5.0"
     "@astrojs/ts-plugin": "npm:^1.8.0"
     "@astrojs/vercel": "npm:^7.6.0"
+    "@fontsource-variable/montserrat": "npm:^5.0.19"
+    "@fontsource-variable/work-sans": "npm:^5.0.19"
+    "@fontsource/varela-round": "npm:^5.0.13"
     "@jsdevtools/rehype-url-inspector": "npm:^2.0.2"
     "@microflash/rehype-figure": "npm:^2.1.0"
     "@remark-embedder/core": "npm:^3.0.3"
@@ -10603,7 +10650,6 @@ __metadata:
     remark-alerts: "npm:^0.0.1"
     remark-captions: "npm:^2.2.4"
     remark-definition-list: "npm:^2.0.0"
-    remark-denden-ruby: "npm:^0.3.1"
     remark-directive: "npm:^3.0.0"
     remark-extended-table: "npm:^2.0.2"
     remark-flexible-markers: "npm:^1.2.1"
@@ -10614,9 +10660,7 @@ __metadata:
     remark-squeeze-paragraphs: "npm:^6.0.0"
     remark-unwrap-images: "npm:^3.0.1"
     sharp: "npm:^0.33.4"
-    typeface-montserrat: "npm:1.1.13"
-    typeface-varela-round: "npm:^1.1.13"
-    typeface-work-sans: "npm:^1.1.13"
+    sharp-ico: "npm:^0.1.5"
     typescript: "npm:5.4.5"
     typescript-plugin-css-modules: "npm:^5.1.0"
     unist-util-visit: "npm:^4.1.2"
@@ -10862,7 +10906,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.33.3, sharp@npm:^0.33.4":
+"sharp-ico@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "sharp-ico@npm:0.1.5"
+  dependencies:
+    decode-ico: "npm:*"
+    ico-endec: "npm:*"
+    sharp: "npm:*"
+  checksum: 10/8d958147fa4de0a3dd0693871564318accf56940b642a732b98e75d3d694569d4b8857184aacc83cc24ff7340a5eb35552449758e7224bd4f7cef8ba13e66f4f
+  languageName: node
+  linkType: hard
+
+"sharp@npm:*, sharp@npm:^0.33.3, sharp@npm:^0.33.4":
   version: 0.33.4
   resolution: "sharp@npm:0.33.4"
   dependencies:
@@ -11452,6 +11507,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"to-data-view@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "to-data-view@npm:1.1.0"
+  checksum: 10/53bf818cf7ed4b481568085cfed5528b268efe1e95d0b90c2a45031de9cf40de91600771c046924348fdedbedb54f655f98e7bf1c51041ba06f0ec3f2fd53dc6
+  languageName: node
+  linkType: hard
+
 "to-fast-properties@npm:^2.0.0":
   version: 2.0.0
   resolution: "to-fast-properties@npm:2.0.0"
@@ -11664,27 +11726,6 @@ __metadata:
     is-typed-array: "npm:^1.1.13"
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 10/05e96cf4ff836743ebfc593d86133b8c30e83172cb5d16c56814d7bacfed57ce97e87ada9c4b2156d9aaa59f75cdef01c25bd9081c7826e0b869afbefc3e8c39
-  languageName: node
-  linkType: hard
-
-"typeface-montserrat@npm:1.1.13":
-  version: 1.1.13
-  resolution: "typeface-montserrat@npm:1.1.13"
-  checksum: 10/d9618fac234d32f7b27ba7c25f959ce9751fdb739f4a7813398d9e58dafd1e7f861699b70c8069f51a2338f38b1257f6a1ec9a6cd0a6df3b3baa1a0bc397a473
-  languageName: node
-  linkType: hard
-
-"typeface-varela-round@npm:^1.1.13":
-  version: 1.1.13
-  resolution: "typeface-varela-round@npm:1.1.13"
-  checksum: 10/0bb863b639f72866b0a2123532f457b56fa13fdf41c3c3048b2cee834dc88a984ad8c7305dfaedbd259a1f5c44498cd28564509cb820840a32b721e06981ca98
-  languageName: node
-  linkType: hard
-
-"typeface-work-sans@npm:^1.1.13":
-  version: 1.1.13
-  resolution: "typeface-work-sans@npm:1.1.13"
-  checksum: 10/b7c840785bfecfb62b142d79ff9a45d89d5d14bfb1048dfb8746deaa6e154c7d89551aba67cd9f1f309cb36a7de59ca767fa252b3ff16d84091fdceed8bc7066
   languageName: node
   linkType: hard
 
