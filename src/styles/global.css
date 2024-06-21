@@ -28,6 +28,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: stretch;
   padding-block: 24px;
 }
 
