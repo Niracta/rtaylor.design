@@ -6,7 +6,7 @@ layout: ../layouts/Page.astro
 
 > "Styles come and go. Good design is a language, not a style." <cite> — Massimo Vignelli </cite>
 
-</div><div>
+</div><div style="max-width: 320px; max-height: 320px;">
 
 ![](../assets/Headshot-RT_2020.jpg)
 

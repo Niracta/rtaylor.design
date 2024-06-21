@@ -227,9 +227,15 @@
       display: flex;
       align-items: center;
       gap: 1ch;
+      width: stretch;
       margin-inline: -32px;
+      padding-inline: 16px;
 
-      @media (max-width: 1024px) {
+      > div {
+        flex: 1 1 auto;
+      }
+
+      @media (max-width: 640px) {
         flex-direction: column;
       }
 
