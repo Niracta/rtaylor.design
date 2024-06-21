@@ -24,17 +24,15 @@ export const GET: APIRoute = async () => {
 
   const manifest = {
     name: `Rachel Taylor Design`,
-    short_name: `Rachel Taylor Design`,
+    short_name: `rtaylor`,
     description: `Personal graphic design and illustration portfolio of Rachel Taylor.`,
     start_url: `/`,
     background_color: `#fff`,
     theme_color: `#D9027D`,
-    display: `standalone`,
-    icon: `/logos/logo.png`,
     icons
   };
 
   return new Response(JSON.stringify(manifest), {
-    headers: { "Content-Type": `application/json` }
+    headers: { "Content-Type": `application/manifest+json` }
   });
 };

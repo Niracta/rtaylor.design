@@ -76,7 +76,6 @@
     "remark-sectionize": "^2.0.0",
     "remark-squeeze-paragraphs": "^6.0.0",
     "remark-unwrap-images": "^4.0.0",
-    "sharp-ico": "^0.1.5",
     "typescript": "5.5.2",
     "typescript-plugin-css-modules": "^5.1.0"
   },
