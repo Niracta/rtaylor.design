@@ -29,8 +29,7 @@ I am currently available for projects large and small, contract roles and full-t
 
 #### Awards
 
-###### Gerber Process Development Award
-
-**_August 2019_ • _April 2020_**
+**Gerber Process Development Award**  
+<small>_August 2019_ • _April 2020_</small>
 
 Two-time recepient of the internal Audigy company award. This award is one of four awards presented quarterly to individuals within the company. This award is for recognition of excellence in creating, steamlining, and maintaining processes that move the company forward. The recipient is an employee who has created simplicity and structure in the processes, and a known solution provider.
