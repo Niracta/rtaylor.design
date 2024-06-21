@@ -14,28 +14,26 @@ import { PiMonitor, PiSun, PiMoon } from "react-icons/pi";
 </button>
 
 <script>
-  const button = document.querySelector(`button[aria-label="Switch Theme"]`);
-
-  const handleRotateTheme = () => {
-    if (button) {
-      const theme =
-        document.documentElement.attributes.getNamedItem("data-theme")?.value ??
-        `system`;
-      const themes = {
-        system: `dark`,
-        dark: `light`,
-        light: `system`
-      };
-      button.ariaDescription = `Toggle theme mode. Current theme: ${theme ?? `system`}`;
-      document.dispatchEvent(
-        new CustomEvent("set-theme", {
-          detail: themes[theme]
-        })
-      );
-    }
-  };
-
-  button?.addEventListener(`click`, handleRotateTheme);
+  document
+    .querySelectorAll(`button[aria-label="Switch Theme"]`)
+    ?.forEach((button) =>
+      button.addEventListener(`click`, () => {
+        const theme =
+          document.documentElement.attributes.getNamedItem("data-theme")
+            ?.value ?? `system`;
+        const themes = {
+          system: `dark`,
+          dark: `light`,
+          light: `system`
+        };
+        button.ariaDescription = `Toggle theme mode. Current theme: ${theme ?? `system`}`;
+        document.dispatchEvent(
+          new CustomEvent("set-theme", {
+            detail: themes[theme]
+          })
+        );
+      })
+    );
 </script>
 
 <style is:global>
