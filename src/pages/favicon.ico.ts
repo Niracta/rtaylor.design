@@ -4,7 +4,7 @@ import type { APIRoute } from "astro";
 import sharp from "sharp";
 import ico from "sharp-ico";
 
-const faviconSrc = path.resolve(`src/assets/logo/logo.png`);
+const faviconSrc = path.resolve(`src/assets/logos/logo.png`);
 
 export const GET: APIRoute = async () => {
   const buffer = await sharp(faviconSrc).resize(32).toFormat(`png`).toBuffer();
