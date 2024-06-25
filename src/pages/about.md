@@ -12,24 +12,37 @@ layout: ../layouts/Page.astro
 
 </div></div>
 
-Hi, I’m Rachel. I am a visual designer specializing in process refinement, systems thinking, accessible design, and identity.
+Rachel N. Taylor has traveled through the fields of graphic design, technical writing, and system application administration and leveled up along the journey. She has led enterprise-level changes, navigated projects solo and as part of a team, and has been responsible for securing multi-million dollar contracts through her dedication and craft.
 
-I have a background in process printing and package design working with brands such as GE and Honeywell, and nearly a decade of expertise helping teams work more cohesively and efficiently at scale. After a brief foray into technical writing, I am currently focused on moving back into design systems and digital work.
+With nearly a decade of expertise helping teams work more cohesively and efficiently at scale, and a certification in Change Management, Rachel is keenly interested in the architecture of data and workflows. But more than all that, she’s keenly interested in working with people and products to drive structures that make everyone more effective, productive, and happy.
 
-I am currently available for projects large and small, contract roles and full-time opportunities.
+Rachel is currently available for projects large and small, contract roles, full-time opportunities, and running tabletop RPGs.
 
-**Capabilities**
-| | |
-| ------------------- | ----------------- |
-| Visual Identity | Process Writing |
-| Organization | Video Editing |
-| Design Systems | Illustration |
-| UX & UI Design | Public Speaking |
-| Packaging Design | Communication |
+| Left Brain<br/>Strengths: | | | Right Brain<br/>Strengths: |
+|:--|:--|--:|--:|
+| Design Systems | Messaging & Communication<br/>Strategy | Creative Direction | Art Direction |
+| Creating Processes<br/>& Workflows | Technical Writing | Brand Voice | Packaging Design |
+| Project Management | and other pragmatic solutions | Presentation Design | Copywriting |
+| | | Marketing | and general creative weirdness |
 
-#### Awards
+## Curriculum vitae
 
-**Gerber Process Development Award**  
-<small>_August 2019_ • _April 2020_</small>
+**Formerly:**
 
-Two-time recepient of the internal Audigy company award. This award is one of four awards presented quarterly to individuals within the company. This award is for recognition of excellence in creating, steamlining, and maintaining processes that move the company forward. The recipient is an employee who has created simplicity and structure in the processes, and a known solution provider.
+- **PCC**: Business Systems Process Writer
+  <small>_2022 - 2023_</small>
+
+- **GN Resound & Audigy Group**: Senior Graphic Design
+  <small>_2018 - 2021_</small>
+
+- **Jasco Products Company**: Graphic Designer specializing in style guides and packaging
+  <small>_2014 – 2017_</small>
+
+## Awards & Credentials:
+
+- Prosci® Certified Change Practicioner
+  <small>_2024_</small>
+
+- Gerber Process Development Award
+  <small>_2019 & 2020_</small>
+
