@@ -32,25 +32,25 @@ Creative Direction, Art Direction, Brand Voice, Packaging Design, Presentation D
 
 ## Curriculum vitae
 
-**Formerly:**
+_Formerly:_
 
-**PCC**
-: Business Systems Process Writer
-: <small>_2022 - 2023_</small>
+**PCC**  
+Business Systems Process Writer  
+<small>_2022 - 2023_</small>
 
-**GN Resound & Audigy Group**
-: Senior Graphic Design
-: <small>_2018 - 2021_</small>
+**GN Resound & Audigy Group**  
+Senior Graphic Design  
+<small>_2018 - 2021_</small>
 
-**Jasco Products Company**
-: Graphic Designer specializing in style guides and packaging
-: <small>_2014 – 2017_</small>
+**Jasco Products Company**  
+Graphic Designer specializing in style guides and packaging  
+<small>_2014 – 2017_</small>
 
 ## Awards & Credentials:
 
-**Prosci® Certified Change Practicioner**
-: <small>_2024_</small>
+**Prosci® Certified Change Practicioner**  
+<small>_2024_</small>
 
-**Gerber Process Development Award**
-: <small>_2019 & 2020_</small>
+**Gerber Process Development Award**  
+<small>_2019 & 2020_</small>
 
