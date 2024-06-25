@@ -29,20 +29,20 @@ Rachel is currently available for projects large and small, contract roles, full
 
 **Formerly:**
 
-- **PCC**: Business Systems Process Writer
+- **PCC**: Business Systems Process Writer  
   <small>_2022 - 2023_</small>
 
-- **GN Resound & Audigy Group**: Senior Graphic Design
+- **GN Resound & Audigy Group**: Senior Graphic Design  
   <small>_2018 - 2021_</small>
 
-- **Jasco Products Company**: Graphic Designer specializing in style guides and packaging
+- **Jasco Products Company**: Graphic Designer specializing in style guides and packaging  
   <small>_2014 – 2017_</small>
 
 ## Awards & Credentials:
 
-- Prosci® Certified Change Practicioner
+- Prosci® Certified Change Practicioner  
   <small>_2024_</small>
 
-- Gerber Process Development Award
+- Gerber Process Development Award  
   <small>_2019 & 2020_</small>
 
