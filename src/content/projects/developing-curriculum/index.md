@@ -1,5 +1,5 @@
 ---
-banner: ./images/Thumb-Developing-Curriculum.png
+banner: ./images/Thumb-Developing-Curriculum.jpeg
 title: Developing Curriculum
 client: PCC
 date: 2023-08-01
@@ -8,6 +8,8 @@ date: 2023-08-01
 #### Developing Curriculum
 
 A project to create end-user-oriented documentation and adult learning curriculum to help educate employees about Financial processes. As project manager, content author, and curriculum designer on this project everything from initial analysis to project execution was executed over the course of an 18 month contract.
+
+![](./images/Thumb-Developing-Curriculum.jpeg)
 
 ##### The Problem
 
