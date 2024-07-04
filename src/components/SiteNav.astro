@@ -4,13 +4,13 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
 
 <nav class="sitenav">
   <ul>
-    <li>
+    <li style="--i: 1">
       <a href="/projects">Projects</a>
     </li>
-    <li>
+    <li style="--i: 2">
       <a href="/about">About</a>
     </li>
-    <li>
+    <li style="--i: 3">
       <a href="https://www.linkedin.com/in/rtaylordesign/" target="_blank">
         LinkedIn
       </a>
@@ -41,6 +41,15 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
       padding-inline: 4px;
       color: var(--colors-black);
       text-decoration: none;
+      transition-property: opacity, translate, scale;
+      transition-duration: calc(200ms * var(--i, 1));
+      transition-timing-function: ease-in-out;
+
+      @starting-style {
+        opacity: 0;
+        translate: 0 50px;
+        scale: 1.5;
+      }
 
       &:focus-within {
         outline: 2px solid var(--colors-secondary-light);
