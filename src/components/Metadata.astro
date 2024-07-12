@@ -2,7 +2,7 @@
 import { getImage } from "astro:assets";
 import { SEO } from "astro-seo";
 import SpeedInsights from "@vercel/speed-insights/astro";
-import Theme from "../components/Theme.astro";
+import Theme from "./Theme.astro";
 import faviconSrc from "../assets/logos/logo.png";
 import faviconSvgSrc from "../assets/logos/logo.svg";
 
@@ -31,22 +31,23 @@ const { title, description } = Astro.props;
       `Personal graphic design and illustration portfolio of Rachel Taylor`}
     extend={{
       link: [
-        { rel: "icon", href: "/favicon.ico", sizes: "32x32" },
-        { rel: "icon", href: faviconSvg.src, type: "image/svg+xml" },
-        { rel: "apple-touch-icon", href: appleTouchIcon.src },
+        { rel: `icon`, href: `/favicon.ico`, sizes: `32x32` },
+        { rel: `icon`, href: faviconSvg.src, type: `image/svg+xml` },
+        { rel: `apple-touch-icon`, href: appleTouchIcon.src },
         {
-          rel: "manifest",
-          href: "/manifest.webmanifest",
-          type: "application/manifest+json"
+          rel: `manifest`,
+          href: `/manifest.webmanifest`,
+          type: `application/manifest+json`
         }
       ],
       meta: [
-        { name: "theme-color", content: "#D9027D" },
-        { name: "viewport", content: "width=device-width" },
-        { name: "generator", content: Astro.generator }
+        { name: `theme-color`, content: `#D9027D` },
+        { name: `viewport`, content: `width=device-width` },
+        { name: `generator`, content: Astro.generator }
       ]
     }}
   />
   <Theme />
+  {/* @ts-expect-error */}
   <SpeedInsights />
 </head>

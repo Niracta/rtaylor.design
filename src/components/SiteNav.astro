@@ -45,12 +45,6 @@ import ThemeSwitcher from "./ThemeSwitcher.astro";
       transition-duration: calc(200ms * var(--i, 1));
       transition-timing-function: ease-in-out;
 
-      @starting-style {
-        opacity: 0;
-        translate: 0 50px;
-        scale: 1.5;
-      }
-
       &:focus-within {
         outline: 2px solid var(--colors-secondary-light);
         outline-offset: 2px;

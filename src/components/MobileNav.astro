@@ -22,12 +22,10 @@ import { PiX, PiList } from "react-icons/pi";
   const openButton = document.querySelector("#menu-open");
   const closeButton = document.querySelector("#menu-close");
 
-  // "Show the dialog" button opens the dialog modally
   openButton?.addEventListener("click", () => {
     dialog?.showModal();
   });
 
-  // "Close" button closes the dialog
   closeButton?.addEventListener("click", () => {
     dialog?.close();
   });
@@ -66,6 +64,14 @@ import { PiX, PiList } from "react-icons/pi";
       display: flex;
       flex-direction: column;
       gap: 24px;
+    }
+
+    li {
+      @starting-style {
+        opacity: 0;
+        translate: 0 50px;
+        scale: 1.5;
+      }
     }
 
     &[open] {
